@@ -1,0 +1,53 @@
+-whats a relational database?
+its a database that organizes data into tables with each one consisting of rows and columns.
+Data in the tables are related to each other through common attributes.
+
+-whats a table in a relational database?
+a collection of related data stored in rows and columns.
+
+-whats a record in a relational database?
+a record referce to a row in a table that contains related data.
+
+-whats a column in a relational database?
+a vertical set of values within a table that represents a specific attricbute of the data.
+
+-what's a primary key?
+A primary key is a column or set of columns that uniquely identifies each record in a table.
+
+-whats a foreign key?
+is a column in a table that that references the primary key of another table
+and used to create relationships.
+
+-what is normalizations?
+normalization is the process of organizing data in a relational database to reduce redundancy
+and improve data integrity. It involves breaking down larger tables into smaller tables and
+creating relationship between them.
+
+-what is one to many relationship in a relational database?
+one to many is a relationship between two tables where one record is the first table can relate
+ to many records in the secon table, but each record in the second table can relate to only one table
+
+-whats many-to-many relationship in relational database?
+it is a relationship between two tables where each record in the first table can relate to many
+records in the seconds table and vice versa.
+
+-what is SQL and how is it used in a relational database?
+SQL or structured query language is a programming language used to manage and manipulate relational databases.
+It is used tp create modify and query the data.
+
+-what is indexing and why is it important?
+it is the process of creating an index on one or more columns in a table to imporve the performance of queries.
+Indexing alllows the database to quickly locate the required data without having to scan the entire table.
+Improves the speed of data retrieval.
+
+-whats a view?
+it is a virtual table that is based on the result of a SQL query and allows user to access data from multiple tables.
+
+-what is the relational model?
+it is a way to represent data in a database using tables,
+with each table consisting of rows and columns, each column represents a particular attribute of the data
+while rows represent a specific instance of the data.
+
+- what is ORM?
+object-relational mapping is a programming technique that allows developers to map between objects in
+an application and relational databases.

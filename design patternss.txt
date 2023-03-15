@@ -1,0 +1,25 @@
+-what are design patterns?
+they're reusable solutions to common software design problems,
+each pattern is like a blueprint that you can customize to solve a particular design problem.
+
+-benefits?
+1. code reusability
+2. maintainability
+3. scalability
+4. collaboration frameworks
+5. performance 
+
+-design patterns classifications
+1. creational: provide object creational mechanisms that increase flexibility and reuse of code.
+eg: dependency injection, singleton, abstract factory, builder, prototype.
+2. structural: explain how to assemble objects and classes into larger structures,
+while keeping these structures flexible and efficient
+3. behavioral: takes care of effective communication and the assignment of responsibilities between objects.
+
+
+-what is dependency injection?
+it is a software design pattern that lies under the creational pattern,
+it is where an object or a function makes use of other objects or functions(dependencies) without worrying about
+their underlying implementaion details. the task of providing dependencies to objects where they're needed is called injector or container.
+pros: flexibility, testing
+cons: overuse, increased complexity.

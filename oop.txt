@@ -1,0 +1,46 @@
+OOP: oop is a proramming paradigm that is based on the concept of objects,
+which contains data and methods that operate on that data.
+
+principles: 
+1. Abstraction: hiding the underlying complexity of an object and exposing
+only the necessary info and operations. this promots simplicity
+
+2. encapsulation: hiding the implementation details of an object
+and providing an interface for interacting with the object. this provides
+security and prevent accidental modification.
+
+3. inheritance: it is the process of a class inheriting properties and methods of
+another class called parent class. this promotes to reduce duplication
+
+4. polymorphism: it is essentially the ability of an object to take on 
+multiple forms. this is achieved through method override(method has the same name in superclass
+but different implemmentaionn in the subclass) and method overloading(the method has the same name 
+but different parameters)
+
+class Animal {
+  constructor(name, sound) {
+    this.name = name;
+    this.sound = sound;
+  }
+
+  speak() {
+    console.log(`${this.name} says ${this.sound}`);
+  }
+}
+
+//inheritance, polmorphism
+class Dog extends Animal {
+  speak() {
+    console.log(`${this.name} barks ${this.sound}`);
+  }
+}
+//inheritance, polymorphism
+class Lion extends Animal {
+  speak() {
+    console.log(`${this.name} roars ${this.sound} `);
+  }
+}
+const dog = new Dog("max", "wooof");
+const lion = new Lion("eddy", "roarrrrrr");
+dog.speak();
+lion.speak();

@@ -1,0 +1,38 @@
+-whats a database?
+it is a collection of data, a place to store data .
+the term database refers to a collection of data thats managed by a dbms.
+
+ -types of databases
+heirarchical, object-oriented, sql, nosql, network.
+1. Heirachical:  this type follows the progression of data being categorized
+ in ranks or levels, wherein data is categorized based on a common point of linkage 
+eg: uni
+cons: not easily scalable
+
+2. Network : this type is similar to heirarchical model but the child records can associate
+ with multiple parent records
+cons: inability to alter the structure
+
+3. Object oriented: information stored in a database is representable in an object.
+highly efficient.
+
+4. Relational databases: this type is based on relationship between data, every piece of
+information has a relationship with every other piece of information, this is on account 
+of every data having a unique id in the form of a record
+
+5. nosql: a database that provides a mechanism for storage and retrieval of data using other means
+ hence no sql. 
+pros: high scalability and availability
+cons: large document size, weak backup, open source
+
+-dbms are software that allows users to create their a new database and specify their schema
+give a user the ability to query and modify the data, 
+
+- relational databases 
+its a database that is organized according to a relational model
+queries could be expressed in a very high level language which increases the efficiency
+of a database programmers 
+
+-indexing: the process of creating an index on one or more columns of a database table.
+An index is a data structure that helps to speed up the database queries by allowing the
+DBMS to quickly locate and retrieve the rows of data that match the query.

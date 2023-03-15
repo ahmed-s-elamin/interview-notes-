@@ -1,0 +1,15 @@
+API: an application programming interface is a set of pf rules, protocols
+and tools that allow the communication between software applications.
+think of it as a messanger that takes a request from a software application 
+to another application.
+
+REST API: (representationa state transfer) is an api that follows the principles of REST 
+architectural style,it is a set of rules and protocols that define how web services should
+communicate with each other over the internet.
+
+A RESTful API: typically uses HTTP protocols to communicate, and relies of on a set of standard
+HTTP methods such as GET POST PUT and DELETE to perform actions on resources which are identified
+by unique URLs and the api returns data in the format of JSON or XML
+
+key feature of a RESTful API is its statelessness. This means the server doesn't need to
+store any information about the client's previous request. this makes them highly scalable
